@@ -8,7 +8,7 @@ Inside of `index.ts` file, there is a script that sends a payment transaction th
 ```bash
 algokit bootstrap all
 algokit localnet start
-npm start
+npm run start
 ```
 it will fail and show this error: `TypeError: Argument must be byte array`
 
@@ -27,11 +27,11 @@ it will fail and show this error: `TypeError: Argument must be byte array`
 ```bash
 algokit bootstrap all
 ```
-2. Create a `.env` file inside of `challenge-1` folder and copy paste the contents inside of `.env.template` file.
+This command will install all dependecies and also generate a `.env` file for you.
 3. Open Docker Desktop and launch Algorand localnet with `algokit localnet start`. 
 4. Run `npm start` in your terminal to run the `index.ts` file and see the error message.
 5. Go to `index.ts` file and fix the code to make it work. 
-6. Run `npm start` in your terminal to run the `index.ts` file.
+6. Run `npm run start` in your terminal to run the `index.ts` file.
 If you see: `Payment of 1000000 microAlgos was sent to [receiver's address]` in the console, you successfully fixed the bug! 👏
 
 ### 2. How to Submit Your Answer

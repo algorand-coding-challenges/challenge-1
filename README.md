@@ -1,4 +1,4 @@
-# Algorand Fix The Bug Campaign
+# Algorand Coding Challenge: Fix The Bug!
 
 ## How to Participate
 
