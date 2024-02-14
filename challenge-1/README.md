@@ -1,4 +1,4 @@
-# Algorand Fix The Bug Challenge #1
+# Algorand Coding Challenge #1: Fix the Bug!
 
 > Ensure you review the README for comprehensive instructions on how to participate in this challenge.
 
@@ -23,15 +23,15 @@ it will fail and show this error: `TypeError: Argument must be byte array`
 
 ### 1. Steps to fix the bug
 
-1. Install dependencies using AlgoKit. Run the below command inside of the `challenge-1` folder.
+1. Install dependencies using AlgoKit. Run the below command inside of the `challenge` folder.
 ```bash
 algokit bootstrap all
 ```
 This command will install all dependecies and also generate a `.env` file for you.
 3. Open Docker Desktop and launch Algorand localnet with `algokit localnet start`. 
-4. Run `npm start` in your terminal to run the `index.ts` file and see the error message.
+4. Run `npm run start` in the `challenge` directory to run the `index.ts` file and see the error message.
 5. Go to `index.ts` file and fix the code to make it work. 
-6. Run `npm run start` in your terminal to run the `index.ts` file.
+6. Run `npm run start` in `challenge` directory to run the `index.ts` file.
 If you see: `Payment of 1000000 microAlgos was sent to [receiver's address]` in the console, you successfully fixed the bug! 👏
 
 ### 2. How to Submit Your Answer

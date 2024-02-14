@@ -21,7 +21,7 @@ Video walkthrough of forking and cloning this repository:
 
 https://github.com/algorand-fix-the-bug-campaign/challenge-1/assets/52557585/acde8053-a8dd-4f53-8bad-45de1068bfda
 
-Now you are ready to fix the bug! Follow the instructions of the README inside of the `challenge-1` folder. 
+Now you are ready to fix the bug! Follow the instructions of the README inside of the `challenge` folder. 
 
 ## What is the Algorand Fix the Bug Campaign?
 
