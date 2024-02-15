@@ -14,27 +14,26 @@ it will fail and show this error: `TypeError: Argument must be byte array`
 
 **Find out what is wrong and fix the bug.**
 
-## Prerequisites
-
-1. Install [AlgoKit](https://github.com/algorandfoundation/algokit-cli/tree/main?tab=readme-ov-file#install).
-2. Install [Docker](https://www.docker.com/products/docker-desktop/). It is used to run local Algorand network for development.
-
 ## Instructions
 
-### 1. Steps to fix the bug
+### 1. Set up your development environment
 
-1. Install dependencies using AlgoKit. Run the below command inside of the `challenge` folder.
+Install dependencies and autogenerate the `.env` file using AlgoKit. Run the below command inside of the `challenge` folder.
 ```bash
 algokit bootstrap all
 ```
-This command will install all dependecies and also generate a `.env` file for you.
-3. Open Docker Desktop and launch Algorand localnet with `algokit localnet start`. 
-4. Run `npm run start` in the `challenge` directory to run the `index.ts` file and see the error message.
-5. Go to `index.ts` file and fix the code to make it work. 
-6. Run `npm run start` in `challenge` directory to run the `index.ts` file.
+
+Now you are ready to fix the bug!
+
+### 2. Steps to fix the bug
+
+1. Open Docker Desktop and launch Algorand localnet with `algokit localnet start`. 
+2. Run `npm run start` in the `challenge` directory to run the `index.ts` file and see the error message.
+3. Go to `index.ts` file and fix the code to make it work. 
+4. Run `npm run start` in `challenge` directory to run the `index.ts` file.
 If you see: `Payment of 1000000 microAlgos was sent to [receiver's address]` in the console, you successfully fixed the bug! 👏
 
-### 2. How to Submit Your Answer
+### 3. How to Submit Your Answer
 
 1. After fixing the bug, push your code to Github and [make a PR to the original repo.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) 
 2. Inside the PR include:
