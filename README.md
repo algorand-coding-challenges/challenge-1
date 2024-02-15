@@ -2,24 +2,25 @@
 
 ## How to Participate
 
-This repository has a folder on the root level, which contains the fix the bug challenge codebase. Inside the folder, you will find another README that has specific instructions for this challenge.  
+This repository has the `challenge` folder on the root level, which contains the fix the bug challenge codebase. Inside the folder, you will find another README that has specific instructions for this challenge.  
 
-### First set up your development environment
-1. [Fork this repository.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
-2. Go to the directory you want to work in with your terminal and clone the forked repository
+### Prerequisites
+
+1. [Install AlgoKit](https://github.com/algorandfoundation/algokit-cli/tree/main?tab=readme-ov-file#install).
+2. Install [Docker](https://www.docker.com/products/docker-desktop/). It is used to run a local Algorand network for development.
+
+### Set up your development environment
+
+1. Clone the repository
 ```bash
 cd [DIRECTORY_OF_YOUR_CHOICE]
 git clone [FORKED_REPO_URL]
 ```
-3. Open the cloned repository with the code editor of your choosing. The below code example works only if you are using VSCode as your default editor and have the `code .` shorthand set up.
+2. Open the cloned repository with the code editor of your choosing.
+3. go into the `challenge` directory and run 
 ```bash
-cd [CLONED_REPO]
-code . 
+algokit bootstrap all
 ```
-
-Video walkthrough of forking and cloning this repository:
-
-https://github.com/algorand-fix-the-bug-campaign/challenge-1/assets/52557585/acde8053-a8dd-4f53-8bad-45de1068bfda
 
 Now you are ready to fix the bug! Follow the instructions of the README inside of the `challenge` folder. 
 
