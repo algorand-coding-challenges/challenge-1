@@ -10,17 +10,21 @@ This repository has the `challenge` folder on the root level, which contains the
 2. Install [Docker](https://www.docker.com/products/docker-desktop/). It is used to run a local Algorand network for development.
 
 ### Set up your development environment
-
-1. Clone the repository
+1. [Fork this repository.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+2. Clone the repository
 ```bash
 cd [DIRECTORY_OF_YOUR_CHOICE]
 git clone [FORKED_REPO_URL]
 ```
-2. Open the cloned repository with the code editor of your choosing.
-3. go into the `challenge` directory and run 
+3. Open the cloned repository with the code editor of your choosing.
+4. go into the `challenge` directory and run 
 ```bash
 algokit bootstrap all
 ```
+
+Video walkthrough of forking and cloning this repository:
+
+https://github.com/algorand-fix-the-bug-campaign/challenge-1/assets/52557585/acde8053-a8dd-4f53-8bad-45de1068bfda
 
 Now you are ready to fix the bug! Follow the instructions of the README inside of the `challenge` folder. 
 
