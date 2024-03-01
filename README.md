@@ -1,6 +1,6 @@
 # 🎮 Algorand Coding Challenge: Fix The Bug 🐞!
 
-## 🔔 Challenge 1: I Can't Send My Transaction! 😭
+## 🚩 Challenge 1: I Can't Send My Transaction! 😭
 
 > I want to send 1 ALGO to my friend to show how amazing Algorand is but I can't send my transaction! what's wrong???
 
