@@ -1,15 +1,31 @@
-# Algorand Coding Challenge: Fix The Bug!
+# 🎮 Algorand Coding Challenge: Fix The Bug 🐞!
 
-## How to Participate
+## 🔔 Challenge 1: I Can't Send My Transaction! 😭
 
-This repository has the `challenge` folder on the root level, which contains the fix the bug challenge codebase. Inside the folder, you will find another README that has specific instructions for this challenge.  
+> I want to send 1 ALGO to my friend to show how amazing Algorand is but I can't send my transaction! what's wrong???
 
-### Prerequisites
+Inside of `index.ts` file, there is a script that sends a payment transaction that sends 1,000,000 microAlgos (1 ALGO) to the receiver's wallet. However if you try running the `index.ts` file after opening Docker Desktop and then running:
+```bash
+algokit bootstrap all
+algokit localnet start
+npm run start
+```
+it will fail and show this error: `TypeError: Argument must be byte array`
+
+This repository has the `challenge` folder on the root level, which contains the fix the bug challenge codebase.
+Find the `index.ts` file inside of the `challenge` folder and address the bug!
+
+**Find out what is wrong and fix the bug! 🐞**
+
+> 💬 Meet other hackers working on this challenge and get help in the [JavaScript SDK Discord Channel](https://discord.com/channels/491256308461207573/631209194967531559)!
+
+## Checkpoint 1: 🧰 Prerequisites 
 
 1. [Install AlgoKit](https://github.com/algorandfoundation/algokit-cli/tree/main?tab=readme-ov-file#install).
 2. Install [Docker](https://www.docker.com/products/docker-desktop/). It is used to run a local Algorand network for development.
 
-### Set up your development environment
+## Checkpoint 2: 💻 Set up your development environment 
+
 1. [Fork this repository.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 2. Clone the repository
 ```bash
@@ -26,24 +42,26 @@ Video walkthrough of forking and cloning this repository:
 
 https://github.com/algorand-fix-the-bug-campaign/challenge-1/assets/52557585/acde8053-a8dd-4f53-8bad-45de1068bfda
 
-Now you are ready to fix the bug! Follow the instructions of the README inside of the `challenge` folder. 
+Now you are ready to fix the bug!
 
-## What is the Algorand Fix the Bug Campaign?
+## Checkpoint 3: 🐞 Fix the bug 🧐
 
-The "Algorand Fix The Bug" campaign is an engaging initiative where developers are invited to discover and resolve bugs within a given codebase. Participants will fork and clone the repository, addressing any bugs or issues, and submitting a pull request with their solutions. This hands-on challenge offers an enjoyable way to explore AlgoKit, the comprehensive Algorand developer toolkit, as well as Puya and TEALScript for writing Algorand smart contracts. Through participating in a series of these challenges, you will gain valuable experience in building on the Algorand blockchain using its industry-leading developer tools.
+1. Open Docker Desktop and launch Algorand localnet with `algokit localnet start`. 
+2. Run `npm run start` in the `challenge` directory to run the `index.ts` file and see the error message.
+3. Go to `index.ts` file and fix the code to make it work. 
+4. Run `npm run start` in `challenge` directory to run the `index.ts` file.
+If you see: `Payment of 1000000 microAlgos was sent to [receiver's address]` in the console, you successfully fixed the bug! 👏
 
-As an additional incentive, participants will be rewarded with participation Non-Fungible Token (NFT), adding an element of excitement and recognition for their efforts in learning about Algorand development. This challenge serves as both a learning opportunity and a platform to showcase Algorand expertise, fostering a sense of community engagement within the Algorand development ecosystem.
+## Checkpoint 4: 💯 Submit your answer 
 
-## Rules and Regulations
-1. **Timely Completion Requirement:**
-Participants are required to successfully complete challenges within a 7-day timeframe to qualify for consideration and eligibility for the Non-Fungible Token (NFT) reward.
+1. After fixing the bug, push your code to Github and [make a PR to the original repo.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) 
+2. Inside the PR include:
+   1. What was the problem?
+   2. How did you solve the problem?
+   3. Screenshot of your terminal showing the logged sentence. `Payment of 1000000 microAlgos was sent to [receiver's address]`
 
-2. **Intellectual Property Integrity:**
-All submissions must exclusively represent the individual efforts of the participant. Any indication of duplicating or incorporating elements from other participants' submissions will result in disqualification from receiving the NFT reward.
+## Checkpoint 5: 🏆 Claim your verifiable credentials! 🎓
 
-3. **Compliance with Submission Guidelines:**
-Submissions are expected to strictly adhere to the instructions outlined in the README of the associated GitHub repository. Failure to comply with the provided instructions will result in disqualification of the submission.
+The Algorand Developer Relations team will review the submission and "approve" the PR by labeling it `Approved`. Once it's approved, we will share the magic link to claim your verifiable credential in the comment of the PR! 
 
-## How to receive Proof of Completion NFT
-
-As an added incentive, we are giving out an NFT for completing each challenges. Each challenge will have a 7-days timeframe and whoever completes the challenge within the timeframe, will receive the reward NFT. 
+🎉 Congratulations Algodev! Now on to the next one 💪
