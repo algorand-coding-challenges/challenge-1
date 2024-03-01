@@ -60,8 +60,8 @@ If you see: `Payment of 1000000 microAlgos was sent to [receiver's address]` in 
    2. How did you solve the problem?
    3. Screenshot of your terminal showing the logged sentence. `Payment of 1000000 microAlgos was sent to [receiver's address]`
 
-## Checkpoint 5: 🏆 Claim your verifiable credentials! 🎓
+## Checkpoint 5: 🏆 Claim your certificate of completion NFT! 🎓
 
-The Algorand Developer Relations team will review the submission and "approve" the PR by labeling it `Approved`. Once it's approved, we will share the magic link to claim your verifiable credential in the comment of the PR! 
+The Algorand Developer Relations team will review the submission and "approve" the PR by labeling it `Approved`. Once it's approved, we will share the magic link to claim your certificate of completion NFT in the comment of the PR! 
 
-🎉 Congratulations Algodev! Now on to the next one 💪
+🎉 Congratulations on completing the challenge Algodev! Now on to the next one 💪
