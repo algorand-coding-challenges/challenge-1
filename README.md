@@ -52,6 +52,9 @@ Now you are ready to fix the bug!
 4. Run `npm run start` inside of `challenge` directory again to run the `index.ts` file.
 If you see: `Payment of 1000000 microAlgos was sent to [receiver's address]` in the console, you successfully fixed the bug! 👏
 
+**😰 Are you struggling?**
+Here is a hint for you: https://developer.algorand.org/docs/sdks/javascript/?from_query=javascript%20sdk#install-javascript-sdk
+
 ## Checkpoint 4: 💯 Submit your answer 
 
 1. After fixing the bug, push your code to your forked Github repo and [make a PR to the original repo.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) 
