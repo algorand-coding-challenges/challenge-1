@@ -33,7 +33,7 @@ cd [DIRECTORY_OF_YOUR_CHOICE]
 git clone [FORKED_REPO_URL]
 ```
 3. Open the cloned repository with the code editor of your choosing.
-4. go into the `challenge` directory and run the following in your terminal:
+4. Go into the `challenge` directory and run the following in your terminal:
 ```bash
 algokit bootstrap all
 ```
@@ -47,7 +47,7 @@ Now you are ready to fix the bug!
 ## Checkpoint 3: 🐞 Fix the bug 🧐
 
 1. Open Docker Desktop and launch Algorand localnet by running `algokit localnet start` in your terminal [For more info click me!](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/features/localnet.md#creating--starting-the-localnet). 
-2. Make sure you are inside the `challenge` directory and run `npm run start` in your termianl to run the `index.ts` file and see the error message.
+2. Make sure you are inside the `challenge` directory and run `npm run start` in your terminal to run the `index.ts` file and see the error message.
 3. Go to `index.ts` file and fix the code to make it work. 
 4. Run `npm run start` inside of `challenge` directory again to run the `index.ts` file.
 If you see: `Payment of 1000000 microAlgos was sent to [receiver's address]` in the console, you successfully fixed the bug! 👏
