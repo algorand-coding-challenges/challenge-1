@@ -13,9 +13,7 @@ npm run start
 it will fail and show this error: `TypeError: Argument must be byte array`
 
 This repository has the `challenge` folder on the root level, which contains the fix the bug challenge codebase.
-Find the `index.ts` file inside of the `challenge` folder and address the bug!
-
-**Find out what is wrong and fix the bug! 🐞**
+Find the `index.ts` file inside of the `challenge` folder and **fix the bug! 🐞**
 
 > 💬 Meet other hackers working on this challenge and get help in the [JavaScript SDK Discord Channel](https://discord.com/channels/491256308461207573/631209194967531559)!
 
@@ -23,6 +21,8 @@ Find the `index.ts` file inside of the `challenge` folder and address the bug!
 
 1. [Install AlgoKit](https://github.com/algorandfoundation/algokit-cli/tree/main?tab=readme-ov-file#install).
 2. Install [Docker](https://www.docker.com/products/docker-desktop/). It is used to run a local Algorand network for development.
+
+**Make sure to install these 2 prerequisites before continuing!**
 
 ## Checkpoint 2: 💻 Set up your development environment 
 
@@ -33,7 +33,7 @@ cd [DIRECTORY_OF_YOUR_CHOICE]
 git clone [FORKED_REPO_URL]
 ```
 3. Open the cloned repository with the code editor of your choosing.
-4. go into the `challenge` directory and run 
+4. go into the `challenge` directory and run the following in your terminal:
 ```bash
 algokit bootstrap all
 ```
@@ -46,15 +46,15 @@ Now you are ready to fix the bug!
 
 ## Checkpoint 3: 🐞 Fix the bug 🧐
 
-1. Open Docker Desktop and launch Algorand localnet with `algokit localnet start`. 
-2. Run `npm run start` in the `challenge` directory to run the `index.ts` file and see the error message.
+1. Open Docker Desktop and launch Algorand localnet by running `algokit localnet start` in your terminal [For more info click me!](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/features/localnet.md#creating--starting-the-localnet). 
+2. Make sure you are inside the `challenge` directory and run `npm run start` in your termianl to run the `index.ts` file and see the error message.
 3. Go to `index.ts` file and fix the code to make it work. 
-4. Run `npm run start` in `challenge` directory to run the `index.ts` file.
+4. Run `npm run start` inside of `challenge` directory again to run the `index.ts` file.
 If you see: `Payment of 1000000 microAlgos was sent to [receiver's address]` in the console, you successfully fixed the bug! 👏
 
 ## Checkpoint 4: 💯 Submit your answer 
 
-1. After fixing the bug, push your code to Github and [make a PR to the original repo.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) 
+1. After fixing the bug, push your code to your forked Github repo and [make a PR to the original repo.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) 
 2. Inside the PR include:
    1. What was the problem?
    2. How did you solve the problem?
