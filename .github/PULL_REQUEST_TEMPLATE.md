@@ -1,4 +1,4 @@
-## Fix the Bug Submission Pull Request
+## Algorand Coding Challenge Submission
 
 **What was the bug?**
 
@@ -11,7 +11,3 @@
 **Console Screenshot:**
 
 <!-- Attach a screenshot of your console showing the result specified in the README. -->
-
-**Wallet Address for Reward NFT:**
-
-<!-- Provide your wallet address for sending the reward NFT. -->
