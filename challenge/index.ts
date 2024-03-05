@@ -36,4 +36,4 @@ const result = await algosdk.waitForConfirmation(
     3
 );
 
-console.log(`Payment of ${result.txn.txn.amt} microAlgos was sent to ${receiver.addr} at confirmed round ${result['confirmed-round']}`);
+console.log(`Payment of ${result.txn.txn.amt} microAlgos was sent to ${receiver.addr}`);
