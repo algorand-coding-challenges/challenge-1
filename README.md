@@ -52,7 +52,7 @@ Now you are ready to fix the bug!
 4. Run `npm run start` inside of `challenge` directory again to run the `index.ts` file.
 If you see: `Payment of 1000000 microAlgos was sent to [receiver's address]` in the console, you successfully fixed the bug! 👏
 
-<img src="https://raw.githubusercontent.com/ubinix-warun/algorand-coding-challenge-1O/main/asset/Screenshot%202567-03-06%20at%2014.49.13.png" />
+<img src="https://raw.githubusercontent.com/ubinix-warun/algorand-coding-challenge-1/main/asset/Screenshot%202567-03-06%20at%2014.49.13.png" />
 
 
 **😰 Are you struggling?**
