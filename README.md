@@ -21,6 +21,7 @@ Find the `index.ts` file inside of the `challenge` folder and **fix the bug! üê
 
 1. [Install AlgoKit](https://github.com/algorandfoundation/algokit-cli/tree/main?tab=readme-ov-file#install).
 2. Install [Docker](https://www.docker.com/products/docker-desktop/). It is used to run a local Algorand network for development.
+3. Install [Node.JS / npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
 
 **Make sure to install these 2 prerequisites before continuing!**
 
