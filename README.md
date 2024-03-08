@@ -64,6 +64,11 @@ Here is a hint for you: https://developer.algorand.org/docs/sdks/javascript/
    2. How did you solve the problem?
    3. Screenshot of your terminal showing the logged sentence. `Payment of 1000000 microAlgos was sent to [receiver's address]`
 
+![Screenshot 2024-03-08 211010](https://github.com/md-d-cdr-4304/challenge-1/assets/144602365/b5d08769-f548-4478-a292-8aa739dd0be0)
+
+
+      
+
 ## Checkpoint 5: 🏆 Claim your certificate of completion NFT! 🎓
 
 The Algorand Developer Relations team will review the submission and "approve" the PR by labeling it `Approved`. Once it's approved, we will share the magic link to claim your certificate of completion NFT in the comment of the PR! 
