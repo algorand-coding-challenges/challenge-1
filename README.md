@@ -23,7 +23,7 @@ Find the `index.ts` file inside of the `challenge` folder and **fix the bug! ğŸ
 2. Install [Docker](https://www.docker.com/products/docker-desktop/). It is used to run a local Algorand network for development.
 3. Install [Node.JS / npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
 
-**Make sure to install these 2 prerequisites before continuing!**
+**Make sure to install these 3 prerequisites before continuing!**
 
 ## Checkpoint 2: ğŸ’» Set up your development environment 
 
