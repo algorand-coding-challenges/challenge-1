@@ -24,7 +24,7 @@ When solved correctly, the console should print out the following:
 
 /*
 Answer : 
-    What was the problem? TXN has not been signed with a secret key and should be type Array
+    What was the problem? TXN has not been signed with a secret key should be type Array
     How did you solve the problem? Add code signedTxn to get wallet secretKey
 */
 

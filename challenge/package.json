@@ -13,8 +13,5 @@
     "algosdk": "^2.7.0",
     "dotenv": "^16.4.1",
     "tsx": "^4.7.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.11.26"
   }
 }
