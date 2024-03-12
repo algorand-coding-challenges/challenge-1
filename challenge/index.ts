@@ -5,6 +5,7 @@ const algodClient = algokit.getAlgoClient()
 
 // Retrieve 2 accounts from localnet kmd
 const sender = await algokit.getLocalNetDispenserAccount(algodClient)
+console.log("Sender:", sender);
 const receiver = await algokit.mnemonicAccountFromEnvironment(
     {name: 'RECEIVER', fundWith: algokit.algos(100)},
     algodClient,
@@ -24,12 +25,15 @@ When solved correctly, the console should print out the following:
 const suggestedParams = await algodClient.getTransactionParams().do();
 const txn = algosdk.makePaymentTxnWithSuggestedParamsFromObject({
     from: sender.addr,
-    suggestedParams,
+    suggestedParams: suggestedParams,
     to: receiver.addr,
     amount: 1000000,
 });
 
-await algodClient.sendRawTransaction(txn).do();
+const signedTxn = txn.signTxn(sender.sk);
+
+
+await algodClient.sendRawTransaction(signedTxn).do();
 const result = await algosdk.waitForConfirmation(
     algodClient,
     txn.txID().toString(),
