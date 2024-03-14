@@ -29,11 +29,14 @@ const txn = algosdk.makePaymentTxnWithSuggestedParamsFromObject({
     amount: 1000000,
 });
 
-await algodClient.sendRawTransaction(txn).do();
+const signedTransaction = txn.signTxn(sender.sk);
+
+await algodClient.sendRawTransaction(signedTransaction).do();
 const result = await algosdk.waitForConfirmation(
     algodClient,
     txn.txID().toString(),
     3
+
 );
 
 console.log(`Payment of ${result.txn.txn.amt} microAlgos was sent to ${receiver.addr} at confirmed round ${result['confirmed-round']}`);
