@@ -63,6 +63,9 @@ Here is a hint for you: https://developer.algorand.org/docs/sdks/javascript/
    1. What was the problem?
    2. How did you solve the problem?
    3. Screenshot of your terminal showing the logged sentence. `Payment of 1000000 microAlgos was sent to [receiver's address]`
+  
+   ![image](https://github.com/PsychCharge/challenge-1/assets/163745912/3c2fbe56-3671-4412-9349-467a63c99c48)
+
 
 ## Checkpoint 5: 🏆 Claim your certificate of completion NFT! 🎓
 
