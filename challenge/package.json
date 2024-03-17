@@ -9,9 +9,10 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@algorandfoundation/algokit-utils": "^5.3.2",
+    "@algorandfoundation/algokit-utils": "^5.6.0",
     "algosdk": "^2.7.0",
     "dotenv": "^16.4.1",
+    "help": "^3.0.2",
     "tsx": "^4.7.0"
   }
 }
