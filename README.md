@@ -63,6 +63,9 @@ Here is a hint for you: https://developer.algorand.org/docs/sdks/javascript/
    1. What was the problem?
    2. How did you solve the problem?
    3. Screenshot of your terminal showing the logged sentence. `Payment of 1000000 microAlgos was sent to [receiver's address]`
+  
+   ![image](https://github.com/keerthanazion/challenge-1/assets/158038552/a1741f27-6439-4887-90ef-49c9e02991ed)
+
 
 ## Checkpoint 5: 🏆 Claim your certificate of completion NFT! 🎓
 
