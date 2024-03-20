@@ -1,14 +1,14 @@
 import algosdk  from "algosdk";
 import * as algokit from '@algorandfoundation/algokit-utils';
 
-const algodClient = algokit.getAlgoClient()
+const algodClient = algokit.getAlgoClient();
 
 // Retrieve 2 accounts from localnet kmd
-const sender = await algokit.getLocalNetDispenserAccount(algodClient)
+const sender = await algokit.getLocalNetDispenserAccount(algodClient);
 const receiver = await algokit.mnemonicAccountFromEnvironment(
     {name: 'RECEIVER', fundWith: algokit.algos(100)},
     algodClient,
-  )
+  );
 
 /*
 TODO: edit code below
@@ -28,8 +28,9 @@ const txn = algosdk.makePaymentTxnWithSuggestedParamsFromObject({
     to: receiver.addr,
     amount: 1000000,
 });
+const signedTxn = txn.signTxn(sender.sk);
 
-await algodClient.sendRawTransaction(txn).do();
+await algodClient.sendRawTransaction(signedTxn).do();
 const result = await algosdk.waitForConfirmation(
     algodClient,
     txn.txID().toString(),
