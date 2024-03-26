@@ -10,6 +10,7 @@ const receiver = await algokit.mnemonicAccountFromEnvironment(
     algodClient,
   )
 
+
 /*
 TODO: edit code below
 
@@ -29,7 +30,9 @@ const txn = algosdk.makePaymentTxnWithSuggestedParamsFromObject({
     amount: 1000000,
 });
 
-await algodClient.sendRawTransaction(txn).do();
+const signed_txn = txn.signTxn(sender.sk)
+
+await algodClient.sendRawTransaction(signed_txn).do();
 const result = await algosdk.waitForConfirmation(
     algodClient,
     txn.txID().toString(),
