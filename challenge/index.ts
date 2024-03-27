@@ -28,11 +28,17 @@ const txn = algosdk.makePaymentTxnWithSuggestedParamsFromObject({
     to: receiver.addr,
     amount: 1000000,
 });
+console.log(txn);
 
-await algodClient.sendRawTransaction(txn).do();
+// await algodClient.sendRawTransaction(txn).do();
+const signedTxn = txn.signTxn(sender.sk);
+
+const { txId } = await algodClient.sendRawTransaction(signedTxn).do();
+
 const result = await algosdk.waitForConfirmation(
     algodClient,
-    txn.txID().toString(),
+    // txn.txID().toString(),
+    txId,
     3
 );
 
